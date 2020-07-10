@@ -8,6 +8,11 @@
     src: url("./Calamity-Regular.otf");
 }
 
+@font-face{
+    font-family: zelda;
+    src: url('./The-Wild-Breath-of-Zelda.otf');
+}
+
 body{
     background: url("../imagens/fundo-azul.jpg");
 }
@@ -90,6 +95,11 @@ footer #info img{
 #menu ul li a:hover {
     text-shadow: 4px 4px 15px #3da5a8;
 }
+
+.paginaAtual{
+    text-shadow: 4px 4px 10px #3da5a8 !important ; 
+}
+
 /* ================ CONFIGURAÇÕES DO FOOTER =================== */
 
 
@@ -152,3 +162,54 @@ footer #info img{
   }
   
 /* ================ CONFIGURAÇÕES DA PÁGINA HOME =================== */
+
+
+/* ================ CONFIGURAÇÕES DA PÁGINA HISTORIA =================== */
+
+#conteudoHistoria{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#conteudoHistoria h1{
+    color:#FFF;
+    font-family: zelda;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 5px;
+}
+
+#conteudoHistoria #card{
+    background-color: white;
+    min-width: 800px;
+    min-height: 400px;
+    border-radius: 4px;
+    display: flex;
+    position: relative;
+    margin: 30px;;
+}
+
+#conteudoHistoria #card #esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#conteudoHistoria #card #esquerda img{
+max-width: 300px;
+}
+
+#conteudoHistoria #card #direita{
+ background-color: #2F354A;
+ color: white;
+ font-family: zelda-hylia;
+ font-size: 16px;;
+ padding: 30px;
+ position: absolute;
+ left: 45%;
+ top: 12%;
+height: 250px;
+ width: 500px;
+}
+/* ================ CONFIGURAÇÕES DA PÁGINA HISTORIA =================== */

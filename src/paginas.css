@@ -3,6 +3,152 @@
     padding: 0;
 }
 
+@font-face{
+    font-family: zelda-hylia;
+    src: url("./Calamity-Regular.otf");
+}
+
 body{
     background: url("../imagens/fundo-azul.jpg");
 }
+
+#conteudo{
+    flex:1;
+}
+
+a{
+    text-decoration: none;
+    color: black;;
+}
+
+
+/* ================ CONFIGURAÇÕES DO FOOTER =================== */
+footer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../imagens/fundo-preto.jpg");
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+    font-size: 18px;;
+}
+
+footer #redesociais{
+    padding: 15px;
+}
+
+footer #redesociais a{
+    padding: 10px;
+}
+
+footer #info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer #info img{
+    padding: 10px;
+    max-height: 60px;
+}
+
+/* ================ CONFIGURAÇÕES DO FOOTER =================== */
+
+/* ================ CONFIGURAÇÕES DO HEADER =================== */
+#menu ul {
+    display: flex;
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#menu ul span{
+    width: 150px;
+    background-color: aqua;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: BOLD;
+    font-family: zelda-hylia;
+    text-shadow: 4px 4px 10px black;
+    transition: text-shadow .3s ease-in-out;
+}
+
+#menu ul li a:hover {
+    text-shadow: 4px 4px 15px #3da5a8;
+}
+/* ================ CONFIGURAÇÕES DO FOOTER =================== */
+
+
+/* ================ CONFIGURAÇÕES DA PÁGINA HOME =================== */
+#conteudoHome{
+    display: flex;
+
+}
+
+#conteudoHome img{
+    max-width: 600px;;
+}
+
+#conteudoHome #mensagemHome{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
+    font-family: zelda-hylia;
+    padding-right: 10px;
+}
+
+#conteudoHome #mensagemHome h1{
+    font-size: 50px;
+    text-shadow: 4px 4px 30px black;
+}
+
+#conteudoHome #mensagemHome p{
+    max-width: 500px;
+    font-size: 25px;;
+}
+
+#Btn {
+    margin-top: 15px;
+    font-family: zelda;
+    width: 200px;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    background: #AA925E;
+    color: #fff;
+    cursor: pointer;
+    transition:all ease-in .5s;
+    align-items: center;
+  }
+ #Btn a{
+     color: white;
+ } 
+
+ #Btn:hover {
+    background: #ddd;
+    color: black;
+    transition: ease-in;
+  }
+
+  #Btn:hover a{
+      color: #AA925E;
+  }
+  
+/* ================ CONFIGURAÇÕES DA PÁGINA HOME =================== */

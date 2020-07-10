@@ -213,3 +213,80 @@ height: 250px;
  width: 500px;
 }
 /* ================ CONFIGURAÇÕES DA PÁGINA HISTORIA =================== */
+
+/* ================ CONFIGURAÇÕES DA PÁGINA AMIIBO =================== */
+#conteudoAmiibo{
+    display:flex;
+    flex-direction: column;
+}
+
+#conteudoAmiibo h1{
+    color:#FFF;
+    font-family: zelda;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+#amiiboLinha{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#amibo{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    transition: .3s ease-out;
+    border-radius: 4px;;
+}
+
+#amibo h2{
+    font-family: zelda-hylia;
+    color: white;
+    padding: 15px;
+}
+
+#amiboNovo{
+    background-image: url("../imagens/fundo-branco.jpg");
+    
+}
+
+#amiboNovo h1{
+    color:#AA925E;
+    padding: 30px;
+}
+
+#amiboNovoLinha{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+#amiboNovoItem{
+    font-family: zelda-hylia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#amiboNovoItem #amiboJogo{
+    color: #AA925E;
+    font-size: 22px;;
+}
+
+#amiboNovoItem #descricao{
+    max-width: 300px;
+    text-align: center;
+    margin-top: 15px;
+}
+/* ================ CONFIGURAÇÕES DA PÁGINA AMIIBO =================== */

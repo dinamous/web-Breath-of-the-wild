@@ -12,7 +12,7 @@
     font-family: zelda;
     src: url('./The-Wild-Breath-of-Zelda.otf');
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
 body{
     background: url("../imagens/fundo-azul.jpg");
 }
@@ -110,7 +110,8 @@ footer #info img{
 }
 
 #conteudoHome img{
-    max-width: 600px;;
+    max-width: 600px;
+    padding: 40px;
 }
 
 #conteudoHome #mensagemHome{
@@ -290,3 +291,53 @@ height: 250px;
     margin-top: 15px;
 }
 /* ================ CONFIGURAÇÕES DA PÁGINA AMIIBO =================== */
+
+/* ================ CONFIGURAÇÕES DA PÁGINA NOTICIA =================== */
+#conteudoNoticias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#conteudoNoticias h1{
+    color:#FFF;
+    font-family: zelda;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#noticiaLinha{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px;
+    width: 100%;
+}
+
+#noticiaLinha #noticia{
+    background-color: white;
+    height: 450px;
+}
+
+#noticiaLinha #noticia img{
+    max-width: 360px;
+}
+
+#noticiaLinha #noticia h2{
+    color: #AA925E;
+    font-size: 28px;
+    padding: 15px;;
+    max-width: 300px;
+}
+
+#noticiaLinha #noticia #descricao{
+    max-width: 300px;
+    padding: 15px;
+    font-size: 18px;
+    font-family: zelda-hylia;
+}
+/* ================ CONFIGURAÇÕES DA PÁGINA NOTICIA =================== */

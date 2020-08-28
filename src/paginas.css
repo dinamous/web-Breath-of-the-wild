@@ -334,6 +334,10 @@ height: 250px;
     max-width: 300px;
 }
 
+#noticia p{
+    color: black;
+}
+
 #noticiaLinha #noticia #descricao{
     max-width: 300px;
     padding: 15px;
@@ -341,3 +345,29 @@ height: 250px;
     font-family: zelda-hylia;
 }
 /* ================ CONFIGURAÇÕES DA PÁGINA NOTICIA =================== */
+
+div#noticia-expandida {
+display: flex;
+background: white;
+width: 60vw;
+padding: 15px;
+flex-direction: column;
+align-items: center;
+}
+
+div#noticia-expandida h2#titulo-noticia {
+    font-family: zelda;
+    font-size: 45px;
+    color: #AA925E;
+    
+}
+
+div#noticia-expandida img{
+    margin: 30px;
+}
+
+div#noticia-expandida p#conteudo-noticia {
+    font-size: 22px;
+    padding: 10px;
+}
+

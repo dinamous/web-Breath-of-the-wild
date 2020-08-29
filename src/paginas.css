@@ -123,6 +123,7 @@ footer #info img{
     color: white;
     font-family: zelda-hylia;
     padding-right: 10px;
+    
 }
 
 #conteudoHome #mensagemHome h1{
@@ -412,3 +413,98 @@ div.galeria img:hover{
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+/* ================================ */
+
+div.conteudo-linha {
+    display: flex;
+    background-image: url("../imagens/fundo-branco.jpg");
+    margin: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+div.conteudo-linha img {
+
+}
+
+
+
+div.conteudo-linha div.conteudo-coluna {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.conteudo-linha div.conteudo-coluna h4 {
+    font-family: zelda;
+    font-size: 40px;
+    color: #AA925E;
+}
+
+
+
+div.conteudo-linha div.conteudo-coluna p {
+    font-size: 22px;
+    padding:10px 30px;
+}
+
+.inverte{
+    flex-direction: row-reverse;
+}
+
+
+/* ============formulario======================= */
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+label{
+    font-size: 22px;
+    color: #867349;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 18px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-size: 15px;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-image: url("../imagens/fundo-branco.jpg");
+    padding: 20px;
+    width: 60%;
+  }
+
+
+

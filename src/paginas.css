@@ -427,10 +427,6 @@ div.conteudo-linha {
     -o-border-radius: 10px;
 }
 
-div.conteudo-linha img {
-
-}
-
 
 
 div.conteudo-linha div.conteudo-coluna {
@@ -470,7 +466,7 @@ div.conteudo-linha div.conteudo-coluna p {
 label{
     font-size: 22px;
     color: #867349;
-    
+
 }
 
 input[type=text], select, textarea {
